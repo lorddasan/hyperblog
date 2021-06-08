@@ -3,12 +3,30 @@ body
     color: darkorange ;
     text-align: center;
     font-family: "Arial";
-    font-size: 30px;
+    font-size: 40px;
     margin: 1;
     padding: 1;
 }
-#container
+
+#cabecera
 {
+    background: rgb(22, 148, 106);
+    box-shadow: 0px 5px 30px 0px rgba(rgb(212, 129, 129), green, blue, alpha);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tagline
+{
+    margin: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8cm;
+    color: silver;
+}
+#container
+{   
     width: 70%;
     padding: 1em;
     text-align: left;
@@ -19,4 +37,8 @@ body
 #container h1
 {
     font-size: 50px;
+}
+#post
+{
+    padding: 1em;
 }
