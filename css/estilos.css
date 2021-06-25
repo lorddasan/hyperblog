@@ -1,11 +1,11 @@
 body
 {
-    color: rgb(68, 172, 8) ;
+    color: rgb(56, 104, 28) ;
     text-align: center;
     font-family: "Arial";
     font-size: 30px;
     margin: 0;
-    padding: 00;
+    padding: 0;
 }
 
 #cabecera
@@ -20,18 +20,19 @@ body
 
 #cabecera #tagline
 {
-    margin: 0 0 0 1em;
+    padding: 0 0 0 1em;
     font-weight: normal;
-    font-size: 0.8cm;
-    color: rgb(5, 5, 5);
+    font-size: 0.8em;
+   
 }
+
 #container
 {   
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
-    border: 5px solid rgb(218, 100, 32);
-    margin: 0 auto;
+    border: 1px solid rgb(218, 100, 32);
+    margin: 1 auto;
 }
 
 #container h1
